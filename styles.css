@@ -1,0 +1,140 @@
+@media (max-width: 593px) {
+    body {
+        box-sizing: border-box;
+        background-color: aquamarine;
+        font-family: poppins, sans-serif;
+        color:rgb(62, 97, 85);
+    }
+
+    #header {
+        -webkit-text-stroke: 1px rgb(92, 92, 92);
+        font-weight: bolder;
+        color: rgba(252, 252, 252, 0);
+    }
+
+    #formula {
+        width: 100%;
+    }
+
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 150px 100px 150px 100px;
+    }
+
+
+    section input {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    label {
+        color:rgb(105, 163, 143);
+    }
+    
+    #submit {
+        width: 100%;
+        background-color: #c0df34;
+        color: #ffffff;
+        border: 0px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bolder;
+        margin: 10px 0px 0px 0px;
+        padding: 8px 20px;
+        align-self: center;
+        box-shadow: 0px 0.3em 0px 0px rgb(100, 226, 184);
+    }
+
+    #submit:hover {
+        opacity: 0.8;
+        
+    }
+
+    #submit:active {
+        box-shadow: 0 5px rgb(100, 226, 184);
+        transform: translateY(4px);
+        
+    }
+
+
+}
+
+@media (min-width: 594px) {
+    body {
+        box-sizing: border-box;
+        background-color: aquamarine;
+        font-family: poppins, sans-serif;
+        color:rgb(62, 97, 85);
+    }
+
+    #header {
+        -webkit-text-stroke: 1px rgb(14, 13, 13);
+        font-weight: bolder;
+        font-size: 40px;
+        color: rgba(62, 97, 85, 0);
+    }
+
+    #formula {
+        width: 50%;
+    }
+
+    #inputHeader {
+        -webkit-text-stroke: 1px rgba(18, 32, 27, 0.582);
+        color: rgba(62, 97, 85, 0);
+        text-align: left;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 150px 100px 150px 100px;
+    }
+
+
+    section input {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    label {
+        color:rgb(105, 163, 143);
+    }
+    
+    #submit {
+        width: 100%;
+        background-color: #c0df34;
+        color: #ffffff;
+        border: 0px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bolder;
+        margin: 10px 0px 0px 0px;
+        padding: 8px 20px;
+        align-self: center;
+        box-shadow: 0px 0.3em 0px 0px rgb(100, 226, 184);
+    }
+
+    #submit:hover {
+        opacity: 0.8;
+        
+    }
+
+    #submit:active {
+        box-shadow: 0 5px rgb(100, 226, 184);
+        transform: translateY(4px);
+    }
+
+
+}
