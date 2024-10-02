@@ -8,22 +8,20 @@
             rel="stylesheet" href="./styles.css"
         />
     </head>
-    <body onload="display">
+    <body">
         <div class="flex-container">
             <section id="input">
                 <h1 id="header">Solve Quadratic Equations</h1>
                 <img id="formula" src="./Images/the-quadratic-formula-and-the-values-of-discriminant.webp" alt="A picture of the quadratic formula and it's parameter"/>
                 <h2 id="inputHeader">Input:</h2>
                 <form id="firstForm" name="f">
-                    
                     <label for="first-coefficient">Input first coefficient [a]:</label><br/>
                         <input type="number" placeholder="a" id="first-coefficient" name="first-coefficient"/><br/>
                     <label for="second-coefficient">Input second coefficient [b]:</label><br/>
                         <input type="number" placeholder="b" id="second-coefficient" name="second-coefficient"/><br/>
                     <label for="third-coefficient">Input third coefficient [c]:</label><br/>
                         <input type="number" placeholder="c" id="third-coefficient" name="third-coefficient"/><br/>
-                        <input type="button" value="submit" name="submit" id="submit" onclick="quadratic_calculation()" />    
-                    
+                        <input type="button" value="submit" name="submit" id="submit" onclick="quadratic_calculation()" />
                 </form>
             </section>
             <section id="output" >
