@@ -16,6 +16,11 @@
         width: 100%;
     }
 
+    #inputHeader {
+        -webkit-text-stroke: 1px rgba(18, 32, 27, 0.582);
+        color: rgba(62, 97, 85, 0);
+        text-align: left;
+    }
 
     .flex-container {
         display: flex;
@@ -26,6 +31,9 @@
         margin: 150px 100px 150px 100px;
     }
 
+    section {
+        width: 100%;
+    }
 
     section input {
         width: 100%;
@@ -60,6 +68,13 @@
     #submit:active {
         box-shadow: 0 5px rgb(100, 226, 184);
         transform: translateY(4px);
+        
+    }
+
+    #outputHeader {
+        -webkit-text-stroke: 1px rgba(18, 32, 27, 0.582);
+        color: rgba(62, 97, 85, 0);
+        text-align: left;
         
     }
 
@@ -100,6 +115,9 @@
         margin: 150px 100px 150px 100px;
     }
 
+    section {
+        width: 100%;
+    }
 
     section input {
         width: 100%;
@@ -136,5 +154,9 @@
         transform: translateY(4px);
     }
 
-
+    #outputHeader {
+        -webkit-text-stroke: 1px rgba(18, 32, 27, 0.582);
+        color: rgba(62, 97, 85, 0);
+        text-align: left;
+    }
 }
